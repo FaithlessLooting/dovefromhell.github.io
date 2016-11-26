@@ -1,0 +1,42 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>javvaaaa</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+</head>
+
+<body>
+	<button id="text changer">change div text </button>
+	<button id="textappender">add div text </button>
+	<button id="text maker">make new div text </button>
+	<div id="div1">
+	this is some text
+	</div>
+	<div id="second div">
+	javascript is
+	</div>
+	<div id="empty">
+	</div>
+	
+	<script type="text/javascript">
+	
+	document.getElementById("text changer").onclick=function(){;
+	document.getElementById("div1").innerHTML="new text";
+	}
+	
+	document.getElementById("textappender").onclick=function(){;
+	document.getElementById("second div").innerHTML=document.getElementById("second div") + "awesome";
+	}
+	
+	document.getElementById("text maker").onclick=function(){;
+	document.getElementById("empty").innerHTML="<ul><li>cat</li>";
+	}
+	</script>
+</body>
+</html>
+

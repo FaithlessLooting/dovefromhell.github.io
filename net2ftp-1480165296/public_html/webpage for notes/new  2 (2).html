@@ -1,0 +1,34 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Learning Javascript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+</head>
+
+<body>
+<p> what is oliver </p>
+<input id="weather"></input>
+<button id="mybutton">submit</button>
+	
+	
+	<script type="text/javascript">
+	var myArray = ["he is very straight"];
+	console.log(myArray)
+	document.getElementById("mybutton").onclick=function() {
+	if (document.getElementById("weather").value=="bad at computing") {
+		alert("true");
+		myArray.splice(0, 1, "he is very bad at computing");
+		console.log(myArray);
+		}
+	else {
+	alert("false");
+	}
+	}
+	</script>
+</body>
+</html>

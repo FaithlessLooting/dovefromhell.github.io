@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css.css">
+    <title>notes page</title>
+
+<div>
+<table>
+	<tr>
+		<th><a href="http://doveydovedove.xyz/webpage%20for%20notes/index.html">homepage</a></th>
+		<th><a href="doveydovedove.xyz/htmlwork.html">html projects</th>
+		<th><a href="">miscellanious</th>
+		<th><a href="https://sites.google.com/a/nhgs.co.uk/nhgs-computing/home/subject-resources/as-a-level-overviewresources">resources</th>
+		</tr>
+<h2>Program 1</h2>
+<p>
+python program to make a tree of html code:
+
+from lxml import html
+import requests
+
+pagemtgolist = request.get("http://magic.wizards.com/en/content/deck-lists-magic-online-products-game-info")
+tree = html.fromstring(oagemtgolist.content)
+</p>	
+<h2> Program 2</h2>
+<p>
+Python program to create a url for the current days mtgo daily event
+
+import datetime
+date= datetime.date.today().strftime("%B %d, %Y")
+print(date)
+monthnow= datetime.date.today()
+monthnow= str(monthnow)
+print(monthnow)
+urllegacy="http://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-"
+fullurl=urllegacy+monthnow
+print(fullurl)
+</p>		
+</div>
+</head>
+<body>
+</body>

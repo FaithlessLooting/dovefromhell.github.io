@@ -1,0 +1,25 @@
+body { background: transparent url("../gallery_gen/7e73e46950a5b400d1c980021392cef1.jpg") no-repeat scroll center top; }
+.wb_sbg { background: transparent none repeat-x scroll left top; }
+body, .wb_sbg { min-width: 992px; min-height: 2160px; }
+.root { width: 992px; height: 2160px; overflow: visible; }
+#wb_element_instance28 { left: 430px; top: 40px; min-width: 107px; width: 107px; min-height: 24px; height: 24px; display: block; z-index: 67; }
+#wb_element_instance29 { left: 0px; top: 84px; display: block; z-index: 9000; }
+#wb_element_instance30 { left: 0px; top: 104px; display: block; z-index: 9999; }
+
+@media (min-width: 768px) {
+	body, .wb_sbg { min-width: 992px; min-height: 2160px; }
+	.root { width: 992px; height: 2160px; overflow: visible; }
+	#wb_element_instance28 { left: 430px; top: 40px; min-width: 107px; width: 107px; min-height: 24px; height: 24px; display: block; }
+}
+
+@media (min-width: 992px) {
+	body, .wb_sbg { min-width: 992px; min-height: 2160px; }
+	.root { width: 992px; height: 2160px; overflow: visible; }
+	#wb_element_instance28 { left: 430px; top: 40px; min-width: 107px; width: 107px; min-height: 24px; height: 24px; display: block; }
+}
+
+@media (min-width: 1200px) {
+	body, .wb_sbg { min-width: 992px; min-height: 2160px; }
+	.root { width: 992px; height: 2160px; overflow: visible; }
+	#wb_element_instance28 { left: 430px; top: 40px; min-width: 107px; width: 107px; min-height: 24px; height: 24px; display: block; }
+}
